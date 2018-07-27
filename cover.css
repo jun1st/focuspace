@@ -90,6 +90,13 @@ body {
   }
 }
 
+.main-content {
+  max-width: 1680px;
+  width: 1680px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #home {
   width: 100%;
@@ -121,12 +128,11 @@ body {
 
 #service_0 
 { 
-	 left: 113px; 
-	 top: 63px; 
-	 position: absolute; 
-	 width: 327px;
-	 height: 46px;
-	 z-index:29;
+	top: 63px; 
+	position: absolute; 
+	width: 327px;
+	height: 46px;
+	z-index:29;
 } 
 
 .parts {
@@ -180,11 +186,26 @@ div#case::after {
 }
 
 #case-banner {
-  padding-left: 114px;
   padding-top: 68px;
   width: 196px;
   height: 46px;
   z-index: 55;
+}
+
+.brands {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.brand-list {
+  padding: 20px 0;
+}
+
+.brand-list img {
+  display: inline-block;
+  width: 240px;
+  padding-left: 40px;
+  margin-right: 40px;
 }
 
 /*
